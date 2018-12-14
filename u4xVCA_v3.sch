@@ -19877,9 +19877,11 @@ by exp-lbrs.ulp</description>
 <sheet>
 <plain>
 <text x="162.56" y="20.32" size="2.54" layer="94">cc-by-sa</text>
-<text x="162.56" y="15.24" size="2.54" layer="94">Olivier Gillet</text>
-<text x="162.56" y="10.16" size="2.54" layer="94">ol.gillet@gmail.com</text>
+<text x="162.56" y="16.002" size="2.54" layer="94">Codex-Modulex</text>
+<text x="162.56" y="11.684" size="2.54" layer="94">info@codex-modulex.com</text>
 <text x="215.9" y="20.32" size="2.54" layer="94">Channel 1</text>
+<text x="162.56" y="5.08" size="1.778" layer="94">Original design by:
+Olivier Gillet of Mutable Instruments</text>
 </plain>
 <instances>
 <instance part="IC3" gate="A" x="66.04" y="68.58" smashed="yes" rot="MR180">
@@ -20425,9 +20427,11 @@ by exp-lbrs.ulp</description>
 <sheet>
 <plain>
 <text x="162.56" y="20.32" size="2.54" layer="94">cc-by-sa</text>
-<text x="162.56" y="15.24" size="2.54" layer="94">Olivier Gillet</text>
-<text x="162.56" y="10.16" size="2.54" layer="94">ol.gillet@gmail.com</text>
+<text x="162.56" y="16.256" size="2.54" layer="94">Codex-Modulex</text>
+<text x="162.56" y="11.938" size="2.54" layer="94">info@codex-modulex.com</text>
 <text x="215.9" y="20.32" size="2.54" layer="94">Channel 2</text>
+<text x="162.56" y="5.08" size="1.778" layer="94">Original design by:
+Olivier Gillet of Mutable Instruments</text>
 </plain>
 <instances>
 <instance part="IC3" gate="B" x="66.04" y="68.58" smashed="yes" rot="MR180">
@@ -20987,9 +20991,11 @@ by exp-lbrs.ulp</description>
 <sheet>
 <plain>
 <text x="162.56" y="20.32" size="2.54" layer="94">cc-by-sa</text>
-<text x="162.56" y="15.24" size="2.54" layer="94">Olivier Gillet</text>
-<text x="162.56" y="10.16" size="2.54" layer="94">ol.gillet@gmail.com</text>
+<text x="162.56" y="16.002" size="2.54" layer="94">Codex-Modulex</text>
+<text x="162.56" y="11.938" size="2.54" layer="94">info@codex-modulex.com</text>
 <text x="215.9" y="20.32" size="2.54" layer="94">Channel 3</text>
+<text x="162.56" y="5.08" size="1.778" layer="94">Original design by:
+Olivier Gillet of Mutable Instruments</text>
 </plain>
 <instances>
 <instance part="J8" gate="G$1" x="198.12" y="109.22" smashed="yes">
@@ -21550,9 +21556,11 @@ by exp-lbrs.ulp</description>
 <sheet>
 <plain>
 <text x="162.56" y="20.32" size="2.54" layer="94">cc-by-sa</text>
-<text x="162.56" y="15.24" size="2.54" layer="94">Olivier Gillet</text>
-<text x="162.56" y="10.16" size="2.54" layer="94">ol.gillet@gmail.com</text>
+<text x="162.56" y="15.748" size="2.54" layer="94">Codex-Modulex</text>
+<text x="162.306" y="11.176" size="2.54" layer="94">info@codex-modulex.com</text>
 <text x="215.9" y="20.32" size="2.54" layer="94">Channel 4</text>
+<text x="162.56" y="5.08" size="1.778" layer="94">Original design by:
+Olivier Gillet of Mutable Instruments</text>
 </plain>
 <instances>
 <instance part="IC7" gate="B" x="66.04" y="68.58" smashed="yes" rot="MR180">
@@ -22083,13 +22091,15 @@ by exp-lbrs.ulp</description>
 <sheet>
 <plain>
 <text x="195.58" y="83.82" size="2.54" layer="94">cc-by-sa</text>
-<text x="195.58" y="78.74" size="2.54" layer="94">Olivier Gillet</text>
-<text x="195.58" y="73.66" size="2.54" layer="94">ol.gillet@gmail.com</text>
+<text x="195.58" y="79.248" size="2.54" layer="94">Codex-Modulex</text>
+<text x="195.58" y="74.93" size="2.54" layer="94">info@codex-modulex.com</text>
 <text x="248.92" y="83.82" size="2.54" layer="94">Power supply</text>
 <text x="261.62" y="203.2" size="1.778" layer="97">0.41mA delivered</text>
 <text x="215.9" y="203.2" size="1.778" layer="97">0.41mA delivered</text>
 <text x="261.62" y="200.66" size="1.778" layer="97">0.20mA needed</text>
 <text x="215.9" y="200.66" size="1.778" layer="97">0.32mA needed</text>
+<text x="195.58" y="68.58" size="1.778" layer="94">Original design by:
+Olivier Gillet of Mutable Instruments</text>
 </plain>
 <instances>
 <instance part="IC8" gate="G$1" x="243.84" y="190.5" smashed="yes" rot="R180">
@@ -22712,6 +22722,10 @@ by exp-lbrs.ulp</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
